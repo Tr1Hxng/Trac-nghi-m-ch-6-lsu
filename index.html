@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trắc nghiệm lịch sử</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card" id="loginCard">
+      <h1>Web trắc nghiệm</h1>
+      <p class="muted">Nhập mã truy cập để vào làm bài.</p>
+      <input type="password" id="accessCode" placeholder="Nhập mã truy cập" />
+      <button id="loginBtn">Vào làm bài</button>
+      <p id="loginMessage" class="message"></p>
+    </div>
+
+    <div class="card hidden" id="quizCard">
+      <div class="topbar">
+        <div>
+          <h1>ĐỀ CƯƠNG CUỐI KÌ 2 - KHỐI 12</h1>
+          <p class="muted">Gồm câu nhiều lựa chọn và câu đúng/sai</p>
+        </div>
+        <div class="timerWrap">
+          <span>Thời gian còn lại:</span>
+          <strong id="timer">45:00</strong>
+        </div>
+      </div>
+
+      <div class="studentBox">
+        <label for="studentName">Họ tên:</label>
+        <input type="text" id="studentName" placeholder="Nhập họ tên" />
+      </div>
+
+      <form id="quizForm"></form>
+
+      <div class="actions">
+        <button type="button" id="submitBtn">Nộp bài</button>
+      </div>
+
+      <div id="result" class="result"></div>
+    </div>
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
