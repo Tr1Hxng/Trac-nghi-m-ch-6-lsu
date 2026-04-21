@@ -4,7 +4,7 @@ const questions = [
     number: 1,
     question: "Một trong những phẩm chất tốt đẹp của xứ Nghệ đã được Chủ tịch Hồ Chí Minh tiếp thu và thể hiện rõ nét trong cuộc đời hoạt động cách mạng là",
     options: ["giỏi nghề thủ công", "trọng nghĩa khinh tài", "ý chí trong học tập", "kinh nghiệm đi biển"],
-    answer: "B"
+    answer: "C"
   },
   {
     type: "multiple",
